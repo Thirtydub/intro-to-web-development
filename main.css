@@ -10,4 +10,149 @@
   max-width: 100%;
 }
 
-/* Write your code below this */
+body{
+  background-color: #d9d9d9;
+}
+
+.navbar {
+  width: 100%;
+  padding: 26px 60px;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 12px;
+}
+
+.hero {
+  background-image: url('./images/hero.png');
+  height: 500px;
+  padding-top: 219px;
+  padding-left: 103px;  
+  background-size: cover;
+  background-position: center;
+
+}
+
+.about {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 100px auto;
+  max-width: 700px;
+}
+
+.about h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.about p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #000; 
+}
+
+
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 35px;
+  padding: 12px 30px;
+  background: #52647E;
+  color: white;
+  border-radius: 10px;
+}
+
+.journey {
+  background: #618379;
+  padding: 57px 0;
+}
+
+.journey h2 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 57px;
+}
+
+.journey-list {
+  display: flex;
+  width: 80%;
+  margin: 0 10%;
+  justify-content: space-between;
+}
+
+.journey-card {
+  width: 30%;
+  background-color: white;
+  padding: 25px;
+  border-radius: 40px;
+  color:gray;
+}
+
+.journey-image {
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+footer {
+  background-color: #333232;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+.goals{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 100px auto;
+  max-width: 700px;
+  
+
+}
+
+.goals h2{
+
+  font-size: 22px;
+  margin-bottom: 16px;
+
+}
+
+.goals p{
+  color: #000;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+  position: relative;
+}
+
+.navbar a:hover {
+  color: purple;
+  transform: scale(1.05);
+}
+
+html{
+  scroll-behavior: smooth;
+}
